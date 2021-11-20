@@ -43,7 +43,7 @@ your_project
 # Setup the package in your application
 Add the package in the dependecies section of your `pubspec.yaml` file.
 ```yaml
-env_manager: ^0.0.1
+env_manager: ^0.1.1
 ```
 
 and execute the `flutter pub get` to fetch the package from `pub.dev`.
