@@ -9,7 +9,8 @@ Future<void> locateAndLoad(List<EnvironmentFileLoader> envFiles) async {
   List<String> tan = [];
 
   for (EnvironmentFileLoader file in envFiles) {
-    EnvironmentFileEntity entity = EnvironmentFileEntity(file.name, file.toYaml);
+    EnvironmentFileEntity entity =
+        EnvironmentFileEntity(file.name, file.toYaml);
     if (tan.contains(entity.name)) {
       throw FileSystemException(
         "Duplicated environment file found! Try to change the file name => ${entity.name}",

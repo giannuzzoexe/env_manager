@@ -7,7 +7,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await env.locateAndLoad([
-    env.EnvironmentFileLoader("myEnvName", await rootBundle.loadString("envdir/application.yaml")),
+    env.EnvironmentFileLoader(
+        "myEnvName", await rootBundle.loadString("envdir/application.yaml")),
   ]);
 
   //Optional

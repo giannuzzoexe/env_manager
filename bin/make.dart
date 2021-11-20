@@ -8,11 +8,13 @@ void main(List<String> arguments) async {
 
     //Production Variables
     initialValues.write('production:');
-    initialValues.write('[ns]displayname: "My Awesome Production Application Name"');
+    initialValues
+        .write('[ns]displayname: "My Awesome Production Application Name"');
 
     //Development Variables
     initialValues.write('[n][n]development:');
-    initialValues.write('[ns]displayname: "My Awesome Development Application Name"');
+    initialValues
+        .write('[ns]displayname: "My Awesome Development Application Name"');
 
     file.writeAsStringSync(wParse(initialValues.toString()));
   } catch (exc) {
