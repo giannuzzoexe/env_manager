@@ -9,24 +9,24 @@ Below is an example of a project folder that uses `env_manager`.
 ```
 your_project
 ├───android
-│	└───...
+│└───...
 ├───assets
-│	└───...
+│└───...
 ├───build
-│	└───...
+│└───...
 │
 ├───envdir
-│	├───application.yaml
-│	├───another_env_file.yaml
-│	└───example_env_folder
-│		└───example_env_file_inside_folder.yaml
+│├───application.yaml
+│├───another_env_file.yaml
+│└───example_env_folder
+│	└───example_env_file_inside_folder.yaml
 │
 ├───ios
-│	└───...
+│└───...
 ├───lib
-│	└───...
+│└───...
 ├───test
-│	└───...
+│└───...
 ├───.flutter-plugins
 ├───.flutter-plugins-dependencies
 ├───.gitattributes
@@ -43,7 +43,7 @@ your_project
 # Setup the package in your application
 Add the package in the dependecies section of your `pubspec.yaml` file.
 ```yaml
-env_manager: ^0.1.1
+env_manager: ^0.1.2
 ```
 
 and execute the `flutter pub get` to fetch the package from `pub.dev`.

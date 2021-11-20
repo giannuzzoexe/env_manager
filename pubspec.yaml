@@ -3,7 +3,7 @@ description: >-
   Manage your application's environment with env_manager,
   and propagate all your environment variables inside your
   application 
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/giannuzzoexe/env_manager
 issue_tracker: https://github.com/giannuzzoexe/env_manager/issues
 

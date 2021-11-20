@@ -8,5 +8,7 @@ class EnvironmentFileLoader {
   final String name;
   final String file;
 
+  /// Get the mapped version of the yaml file
+
   dynamic get toYaml => loadYaml(file);
 }
